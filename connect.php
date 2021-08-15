@@ -1,7 +1,7 @@
 <?php
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$message = $_POST['message'];
+	$name = $_GET['name'];
+	$email = $_GET['email'];
+	$message = $_GET['message'];
 
 	// Database connection
 	$conn = new mysqli('localhost','root','','example');
