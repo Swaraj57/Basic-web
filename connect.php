@@ -13,7 +13,6 @@
 		$stmt->bind_param("sss", $name, $email, $message);
 		$execval = $stmt->execute();
 	//	echo $execval;
-	echo '<script>alert("Your Message Sent Successfully.")</script>';
 	header("Location: contact.html");
 		
 		$stmt->close();
